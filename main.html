@@ -3,14 +3,35 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<style>
+		#container{
+			margin:20px;
+		}
+		#container:: before{
+			content:"special text before";
+			display:block;
+			color:#f00;
+			font-size:20px;
+			margin-bottom:10px;
+}
+		#container:: after:: {
+			content:"speical text after";
+			display:block;
+			color:#f000;
+			font-size:20px;
+			margin-top:10px;
+
+			
+		}
+		
+	</style>
+	
 </head>
 
 <body>
-	<div id="container">
-    This is the main container content.
-  </div>
-	
+<div id="container">
+ This is the main container element After 
+</div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
